@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-color: #222;
+    margin: 0;
+}
+
+.container {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.container header h4 {
+    color: #fff;
+    margin: 0;
+}
+
+.container header .button span {
+    cursor: pointer;
+}
+
+.container header h4 span {
+    color: #326efc;
+    font-weight: bold;
+}
+
+
+/* Content Section */
+
+.container .content .image {
+    margin: 10px;
+    text-align: center;
+}
+
+.container .content .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container .content .info {
+    color: #fff;
+    margin: 10px;
+}
+
+.container .content .info a {
+    display: inline-block;
+    background-color: #326efc;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: calc(100% - 20px);
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.container .content .info a:hover {
+    background-color: #2657d4;
+}
+
+.container .content .links a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.container .content .end {
+    color: #fff;
+    margin: 10px;
+    line-height: 2;
+}
+
+.container .content .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.container .content .buttons::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+.container .content .buttons button {
+    margin: 10px 20px;
+    background-color: #2657d4;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.container .content .all_content .box {
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    color: white;
+}
+
+.container .content .all_content .box .names {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 2;
+}
+
+.container .content .all_content .box .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: solid 2px white;
+    padding-top: 10px;
+}
+
+.container .content .all_content .box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
