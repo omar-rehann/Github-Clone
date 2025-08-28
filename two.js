@@ -3,7 +3,7 @@ let btn = document.querySelector(".send");
 let left_content = document.querySelector(".left_content");
 let all_btn = document.querySelectorAll(".buttons button");
 let content = document.querySelector(".all_content .row");
-//  start event
+//  start ajax
 btn.onclick = function() {
     if (inpt.value == "" || !isNaN(inpt.value)) {
         swal({
